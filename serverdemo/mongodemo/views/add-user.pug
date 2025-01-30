@@ -1,0 +1,8 @@
+extends layout 
+
+block content 
+  h2 Add a User 
+  form(action="/add-user" method="POST")
+    label(for="name") Enter Name: 
+    input(type="text" name="name" required)
+    button(type="submit") Submit

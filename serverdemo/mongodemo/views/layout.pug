@@ -1,0 +1,13 @@
+doctype html
+html 
+  head 
+    title Express + Pug + MongoDB
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css")
+  body 
+    header 
+      h1 Express + Pug Demo 
+      nav 
+        a(href="/") Home |
+        a(href="/add-user") Add User
+    main 
+      block content
